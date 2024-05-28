@@ -1,0 +1,44 @@
+.wrapper {
+    display: flex;   
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.accordion {
+    width: 500px;
+}
+.wrapper button {
+    padding: 20px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(21, 56, 23);
+    font-family: arial;
+    font-weight: bold;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    box-shadow: 4px 3px 0px black;
+}
+.item {
+    background-color: rgb(21, 56, 23);
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.title {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    text-align: left;
+}
+.content {
+    color: white;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
